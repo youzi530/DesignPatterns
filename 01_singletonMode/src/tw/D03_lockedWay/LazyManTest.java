@@ -4,7 +4,6 @@ import org.junit.Test;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 
 public class LazyManTest {
 
@@ -79,7 +78,7 @@ public class LazyManTest {
      *          将标识位修改   道高一尺 魔高一丈
      *
      * 解决：
-     *      请看源码！
+     *      请看源码！newInstance  -> 引出枚举
      *      请看下回解析
      *
      * @throws Exception

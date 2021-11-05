@@ -1,7 +1,15 @@
 package tw.D05_enum;
 
 /**
- * enum
+ * enum：
+ *      本身也是一个类哈
+ *
  */
-public class EnumSingle {
+public enum EnumSingle {
+
+    INSTANCE;
+
+    public EnumSingle getInstance(){
+        return INSTANCE;
+    }
 }
